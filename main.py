@@ -114,7 +114,8 @@ def complex_query(connection):
 
 def main():
     # Main execution flow.
-    # Connect to the database, set up tables, clear previous data, insert new data, and run the complex query.
+    # Connect to the database, set up tables, clear previous data,
+    # insert new data, and run the complex query.
     connection = connect_db()
     create_tables_if_not_exists(connection)
     clear_table(connection)
