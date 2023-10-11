@@ -1,11 +1,11 @@
-import pymysql.cursors
-import pandas as pd
+# import pymysql.cursors
+# import pandas as pd
 from main import (
     connect_db,
     create_tables_if_not_exists,
     clear_table,
     insert_data_from_csv,
-    complex_query,
+    # complex_query,
 )
 
 
