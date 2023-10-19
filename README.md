@@ -76,12 +76,13 @@ The complex SQL query used in this project performs the following operations:
 2. Calculates the total revenue by multiplying price and quantity, considering any available discount.
 3. Sorts the results by the calculated total revenue in descending order.
 
-```sql
-SELECT w.Date, w.Product, w.Price, w.Quantity, d.Discount,
-       (w.Price * w.Quantity) * (1 - d.Discount) AS Total_Revenue
-FROM week6_mini w
-LEFT JOIN week6_mini_discounts d ON w.Product = d.Product
-ORDER BY Total_Revenue DESC;
+    ```sql
+    SELECT w.Date, w.Product, w.Price, w.Quantity, d.Discount,
+        (w.Price * w.Quantity) * (1 - d.Discount) AS Total_Revenue
+    FROM week6_mini w
+    LEFT JOIN week6_mini_discounts d ON w.Product = d.Product
+    ORDER BY Total_Revenue DESC;
+    ```
 
 ## Sample Output
 
