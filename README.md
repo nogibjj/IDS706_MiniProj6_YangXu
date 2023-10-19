@@ -13,36 +13,37 @@ This project showcases complex SQL queries using an external Azure MySQL databas
 
 ## Project Structure
 
-IDS706_MiniProj6_YangXu (Root Directory)
-│
-├── .devcontainer
-│ ├── Dockerfile
-│ └── devcontainer.json
-│
-├── .github
-│ └── workflows
-│ └── cicd.yml
-│
-├── .env
-│
-├── env.example
-│
-├── config.py
-│
-├── dataset_sample.csv
-│
-├── main.py
-│
-├── test_main.py
-│
-├── requirements.txt
-│
-├── Makefile
-│
-├── README.md
-│
-└── .gitignore
-
+    ```bash
+    IDS706_MiniProj6_YangXu (Root Directory)
+    │
+    ├── .devcontainer
+    │ ├── Dockerfile
+    │ └── devcontainer.json
+    │
+    ├── .github
+    │ └── workflows
+    │ └── cicd.yml
+    │
+    ├── .env
+    │
+    ├── env.example
+    │
+    ├── config.py
+    │
+    ├── dataset_sample.csv
+    │
+    ├── main.py
+    │
+    ├── test_main.py
+    │
+    ├── requirements.txt
+    │
+    ├── Makefile
+    │
+    ├── README.md
+    │
+    └── .gitignore
+    ```
 
 ## Requirements
 
