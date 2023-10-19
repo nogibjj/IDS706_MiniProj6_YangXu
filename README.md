@@ -13,7 +13,7 @@ This project showcases complex SQL queries using an external Azure MySQL databas
 
 ## Project Structure
 
-    ```bash
+    ```
     IDS706_MiniProj6_YangXu (Root Directory)
     │
     ├── .devcontainer
